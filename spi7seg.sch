@@ -1,0 +1,1336 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dk_Transistors-Bipolar-BJT-Single
+LIBS:ul_ics
+LIBS:ul_resists
+LIBS:rpihw-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title "SPI 7-SEG DPLY KEYPAD CTL DIP"
+Date ""
+Rev "V1"
+Comp "Hobbyist Community"
+Comment1 "Designed by quorten"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CD74HC238E U5
+U 1 1 5E66E2BF
+P 5600 1300
+F 0 "U5" H 5600 1400 60  0000 C CNN
+F 1 "CD74HC238E" H 5600 1300 60  0000 C CNN
+F 2 "rpihw:N0016A" H 5600 1240 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc138.pdf?ts=1588126328986" H 5600 1300 60  0001 C CNN
+F 4 "296-25983-5-ND" H 5600 1300 60  0001 C CNN "Digi-Key_PN"
+F 5 "CD74HC238E" H 5600 1300 60  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 5600 1300 60  0001 C CNN "Manufacturer"
+	1    5600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CC56-12 AFF1
+U 1 1 5E66E409
+P 7600 3400
+F 0 "AFF1" H 7600 4150 50  0000 C CNN
+F 1 "LDQ-N516RI" H 7600 4050 50  0000 C CNN
+F 2 "Displays_7-Segment:Cx56-12" H 7100 3400 50  0001 C CNN
+F 3 "https://www.lumex.com/spec/LDQ-N516RI.pdf" H 7100 3400 50  0001 C CNN
+F 4 "67-1450-ND" H 7600 3400 60  0001 C CNN "Digi-Key_PN"
+F 5 "LDQ-N516RI" H 7600 3400 60  0001 C CNN "MPN"
+F 6 "Lumex Opto/Components Inc." H 7600 3400 60  0001 C CNN "Manufacturer"
+	1    7600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CC56-12 AFF2
+U 1 1 5E66E616
+P 9850 3400
+F 0 "AFF2" H 9850 4150 50  0000 C CNN
+F 1 "LDQ-N516RI" H 9850 4050 50  0000 C CNN
+F 2 "Displays_7-Segment:Cx56-12" H 9350 3400 50  0001 C CNN
+F 3 "https://www.lumex.com/spec/LDQ-N516RI.pdf" H 9350 3400 50  0001 C CNN
+F 4 "67-1450-ND" H 9850 3400 60  0001 C CNN "Digi-Key_PN"
+F 5 "LDQ-N516RI" H 9850 3400 60  0001 C CNN "MPN"
+F 6 "Lumex Opto/Components Inc." H 9850 3400 60  0001 C CNN "Manufacturer"
+	1    9850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC4K70 R9
+U 1 1 5E684AE1
+P 7200 1600
+F 0 "R9" H 7425 1750 60  0000 C CNN
+F 1 "4.7K" H 7450 1450 60  0000 C CNN
+F 2 "rpihw:STA_RNMF14" H 7450 1265 60  0001 C CNN
+F 3 "" H 7200 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 7200 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 7200 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 7200 1600 60  0001 C CNN "Manufacturer"
+	1    7200 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC4K70 R10
+U 1 1 5E686DB7
+P 7700 1600
+F 0 "R10" H 7925 1750 60  0000 C CNN
+F 1 "4.7K" H 7950 1325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 7950 1265 60  0001 C CNN
+F 3 "" H 7700 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 7700 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 7700 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 7700 1600 60  0001 C CNN "Manufacturer"
+	1    7700 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC4K70 R11
+U 1 1 5E686E3B
+P 8200 1600
+F 0 "R11" H 8425 1750 60  0000 C CNN
+F 1 "4.7K" H 8450 1325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 8450 1265 60  0001 C CNN
+F 3 "" H 8200 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 8200 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 8200 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 8200 1600 60  0001 C CNN "Manufacturer"
+	1    8200 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC4K70 R12
+U 1 1 5E686EF4
+P 8700 1600
+F 0 "R12" H 8925 1750 60  0000 C CNN
+F 1 "4.7K" H 8950 1325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 8950 1265 60  0001 C CNN
+F 3 "" H 8700 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 8700 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 8700 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 8700 1600 60  0001 C CNN "Manufacturer"
+	1    8700 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC4K70 R13
+U 1 1 5E686FD6
+P 9450 1600
+F 0 "R13" H 9675 1750 60  0000 C CNN
+F 1 "4.7K" H 9700 1325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 9700 1265 60  0001 C CNN
+F 3 "" H 9450 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 9450 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 9450 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 9450 1600 60  0001 C CNN "Manufacturer"
+	1    9450 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC4K70 R14
+U 1 1 5E68769F
+P 9950 1600
+F 0 "R14" H 10175 1750 60  0000 C CNN
+F 1 "4.7K" H 10200 1325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 10200 1265 60  0001 C CNN
+F 3 "" H 9950 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 9950 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 9950 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 9950 1600 60  0001 C CNN "Manufacturer"
+	1    9950 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC4K70 R15
+U 1 1 5E687B03
+P 10450 1600
+F 0 "R15" H 10675 1750 60  0000 C CNN
+F 1 "4.7K" H 10700 1325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 10700 1265 60  0001 C CNN
+F 3 "" H 10450 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 10450 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 10450 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 10450 1600 60  0001 C CNN "Manufacturer"
+	1    10450 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC4K70 R16
+U 1 1 5E687C04
+P 10950 1600
+F 0 "R16" H 11175 1750 60  0000 C CNN
+F 1 "4.7K" H 11200 1325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 11200 1265 60  0001 C CNN
+F 3 "" H 10950 1600 60  0000 C CNN
+F 4 "S4.7KCACT-ND" H 10950 1600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC4K70" H 10950 1600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 10950 1600 60  0001 C CNN "Manufacturer"
+	1    10950 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L SN74HC08N U3
+U 1 1 5E68E9EE
+P 2800 2550
+F 0 "U3" H 3600 2950 60  0000 C CNN
+F 1 "SN74HC08N" H 3600 2850 60  0000 C CNN
+F 2 "rpihw:N14" H 3600 2790 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc08.pdf?ts=1588126416768" H 2800 2550 60  0001 C CNN
+F 4 "296-1570-5-ND" H 2800 2550 60  0001 C CNN "Digi-Key_PN"
+F 5 "SN74HC08N" H 2800 2550 60  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 2800 2550 60  0001 C CNN "Manufacturer"
+	1    2800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74HC04N U4
+U 1 1 5E68ED9E
+P 900 3050
+F 0 "U4" H 1700 3450 60  0000 C CNN
+F 1 "SN74HC04N" H 1700 3350 60  0000 C CNN
+F 2 "rpihw:N14" H 1700 3290 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc04.pdf?ts=1588126377820" H 900 3050 60  0001 C CNN
+F 4 "296-1566-5-ND" H 900 3050 60  0001 C CNN "Digi-Key_PN"
+F 5 "SN74HC04N" H 900 3050 60  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 900 3050 60  0001 C CNN "Manufacturer"
+	1    900  3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74HC595N U1
+U 1 1 5E693209
+P 4800 4200
+F 0 "U1" H 5600 4600 60  0000 C CNN
+F 1 "SN74HC595N" H 5600 4500 60  0000 C CNN
+F 2 "rpihw:N16" H 5600 4440 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?ts=1588126497782" H 4800 4200 60  0001 C CNN
+F 4 "296-1600-5-ND" H 4800 4200 60  0001 C CNN "Digi-Key_PN"
+F 5 "SN74HC595N" H 4800 4200 60  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 4800 4200 60  0001 C CNN "Manufacturer"
+	1    4800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R8
+U 1 1 5E6A34AA
+P 6500 4200
+F 0 "R8" H 6725 4350 60  0000 C CNN
+F 1 "220" H 6750 3925 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 3865 60  0001 C CNN
+F 3 "" H 6500 4200 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4200 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4200 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4200 60  0001 C CNN "Manufacturer"
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R7
+U 1 1 5E6A3632
+P 6500 4300
+F 0 "R7" H 6725 4450 60  0001 C CNN
+F 1 "220" H 6750 4025 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 3965 60  0001 C CNN
+F 3 "" H 6500 4300 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4300 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4300 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4300 60  0001 C CNN "Manufacturer"
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R6
+U 1 1 5E6A369F
+P 6500 4400
+F 0 "R6" H 6725 4550 60  0001 C CNN
+F 1 "220" H 6750 4125 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 4065 60  0001 C CNN
+F 3 "" H 6500 4400 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4400 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4400 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4400 60  0001 C CNN "Manufacturer"
+	1    6500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R5
+U 1 1 5E6A3708
+P 6500 4500
+F 0 "R5" H 6725 4650 60  0001 C CNN
+F 1 "220" H 6750 4225 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 4165 60  0001 C CNN
+F 3 "" H 6500 4500 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4500 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4500 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4500 60  0001 C CNN "Manufacturer"
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R4
+U 1 1 5E6A3781
+P 6500 4600
+F 0 "R4" H 6725 4750 60  0001 C CNN
+F 1 "220" H 6750 4325 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 4265 60  0001 C CNN
+F 3 "" H 6500 4600 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4600 60  0001 C CNN "Manufacturer"
+	1    6500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R3
+U 1 1 5E6A380F
+P 6500 4700
+F 0 "R3" H 6725 4850 60  0001 C CNN
+F 1 "220" H 6750 4425 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 4365 60  0001 C CNN
+F 3 "" H 6500 4700 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4700 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4700 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4700 60  0001 C CNN "Manufacturer"
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R2
+U 1 1 5E6A3898
+P 6500 4800
+F 0 "R2" H 6725 4950 60  0001 C CNN
+F 1 "220" H 6750 4525 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 4465 60  0001 C CNN
+F 3 "" H 6500 4800 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4800 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4800 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4800 60  0001 C CNN "Manufacturer"
+	1    6500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RNMF14FTC220R R1
+U 1 1 5E6A3921
+P 6500 4900
+F 0 "R1" H 6750 4750 60  0000 C CNN
+F 1 "220" H 6750 4625 60  0000 C CNN
+F 2 "rpihw:STA_RNMF14" H 6750 4565 60  0001 C CNN
+F 3 "" H 6500 4900 60  0000 C CNN
+F 4 "S220CACT-ND" H 6500 4900 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC220R" H 6500 4900 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 6500 4900 60  0001 C CNN "Manufacturer"
+	1    6500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904BU Q5
+U 1 1 5E6AE645
+P 9250 2400
+F 0 "Q5" H 9124 2566 60  0000 L CNN
+F 1 "2N3904BU" V 9456 2400 60  0001 C CNN
+F 2 "rpihw:TO-92-3" H 9450 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 9450 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 9450 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 9450 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9450 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9450 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 9450 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 9450 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 9450 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9450 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9450 3600 60  0001 L CNN "Status"
+	1    9250 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3904BU Q8
+U 1 1 5E6AEFE0
+P 10750 2400
+F 0 "Q8" H 10624 2566 60  0000 L CNN
+F 1 "2N3904BU" V 10956 2400 60  0001 C CNN
+F 2 "rpihw:TO-92-3" H 10950 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 10950 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 10950 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 10950 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 10950 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 10950 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 10950 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 10950 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 10950 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 10950 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10950 3600 60  0001 L CNN "Status"
+	1    10750 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3904BU Q6
+U 1 1 5E6AF02B
+P 9750 2400
+F 0 "Q6" H 9624 2566 60  0000 L CNN
+F 1 "2N3904BU" V 9956 2400 60  0001 C CNN
+F 2 "rpihw:TO-92-3" H 9950 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 9950 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 9950 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 9950 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9950 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9950 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 9950 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 9950 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 9950 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9950 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9950 3600 60  0001 L CNN "Status"
+	1    9750 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3904BU Q7
+U 1 1 5E6AF089
+P 10250 2400
+F 0 "Q7" H 10124 2566 60  0000 L CNN
+F 1 "2N3904BU" V 10456 2400 60  0001 C CNN
+F 2 "rpihw:TO-92-3" H 10450 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 10450 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 10450 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 10450 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 10450 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 10450 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 10450 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 10450 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 10450 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 10450 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10450 3600 60  0001 L CNN "Status"
+	1    10250 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3904BU Q4
+U 1 1 5E6AF098
+P 8500 2400
+F 0 "Q4" H 8374 2566 60  0000 L CNN
+F 1 "2N3904BU" V 8706 2400 60  0001 C CNN
+F 2 "rpihw:TO-92-3" H 8700 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 8700 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 8700 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 8700 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8700 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 8700 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 8700 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 8700 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 8700 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 8700 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8700 3600 60  0001 L CNN "Status"
+	1    8500 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3904BU Q2
+U 1 1 5E6AF136
+P 7500 2400
+F 0 "Q2" H 7374 2566 60  0000 L CNN
+F 1 "2N3904BU" V 7706 2400 60  0001 C CNN
+F 2 "rpihw:TO-92-3" H 7700 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 7700 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 7700 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 7700 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7700 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7700 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 7700 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 7700 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 7700 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 7700 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7700 3600 60  0001 L CNN "Status"
+	1    7500 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3904BU Q3
+U 1 1 5E6AF145
+P 8000 2400
+F 0 "Q3" H 7874 2566 60  0000 L CNN
+F 1 "2N3904BU" V 8206 2400 60  0001 C CNN
+F 2 "rpihw:TO-92-3" H 8200 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 8200 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 8200 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 8200 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8200 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 8200 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 8200 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 8200 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 8200 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 8200 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8200 3600 60  0001 L CNN "Status"
+	1    8000 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3904BU Q1
+U 1 1 5E6AF154
+P 7000 2400
+F 0 "Q1" H 6874 2566 60  0000 L CNN
+F 1 "2N3904BU" V 7200 2450 60  0000 C CNN
+F 2 "rpihw:TO-92-3" H 7200 2600 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 7200 2700 60  0001 L CNN
+F 4 "2N3904FS-ND" H 7200 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904BU" H 7200 2900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7200 3000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7200 3100 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf" H 7200 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413" H 7200 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A TO-92" H 7200 3400 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 7200 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7200 3600 60  0001 L CNN "Status"
+	1    7000 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C5
+U 1 1 5E6BD5A6
+P 4500 2050
+F 0 "C5" H 4525 2150 50  0000 L CNN
+F 1 "100nF" H 4525 1950 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 4538 1900 50  0001 C CNN
+F 3 "" H 4500 2050 50  0000 C CNN
+F 4 "399-9859-1-ND" H 4500 2050 60  0001 C CNN "Digi-Key_PN"
+F 5 "C315C104M5U5TA7303" H 4500 2050 60  0001 C CNN "MPN"
+F 6 "KEMET" H 4500 2050 60  0001 C CNN "Manufacturer"
+	1    4500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5E6BE09F
+P 700 4450
+F 0 "C4" H 725 4550 50  0000 L CNN
+F 1 "100nF" H 725 4350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 738 4300 50  0001 C CNN
+F 3 "" H 700 4450 50  0000 C CNN
+F 4 "399-9859-1-ND" H 700 4450 60  0001 C CNN "Digi-Key_PN"
+F 5 "C315C104M5U5TA7303" H 700 4450 60  0001 C CNN "MPN"
+F 6 "KEMET" H 700 4450 60  0001 C CNN "Manufacturer"
+	1    700  4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5E6BEEF2
+P 2450 2550
+F 0 "C2" H 2475 2650 50  0000 L CNN
+F 1 "100nF" H 2475 2450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 2488 2400 50  0001 C CNN
+F 3 "" H 2450 2550 50  0000 C CNN
+F 4 "399-9859-1-ND" H 2450 2550 60  0001 C CNN "Digi-Key_PN"
+F 5 "C315C104M5U5TA7303" H 2450 2550 60  0001 C CNN "MPN"
+F 6 "KEMET" H 2450 2550 60  0001 C CNN "Manufacturer"
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5E6BF917
+P 2950 4050
+F 0 "C3" H 2975 4150 50  0000 L CNN
+F 1 "100nF" H 2975 3950 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 2988 3900 50  0001 C CNN
+F 3 "" H 2950 4050 50  0000 C CNN
+F 4 "399-9859-1-ND" H 2950 4050 60  0001 C CNN "Digi-Key_PN"
+F 5 "C315C104M5U5TA7303" H 2950 4050 60  0001 C CNN "MPN"
+F 6 "KEMET" H 2950 4050 60  0001 C CNN "Manufacturer"
+	1    2950 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C6
+U 1 1 5E6C3014
+P 2300 7300
+F 0 "C6" H 2325 7400 50  0000 L CNN
+F 1 "100nF" H 2325 7200 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 2338 7150 50  0001 C CNN
+F 3 "" H 2300 7300 50  0000 C CNN
+F 4 "399-9859-1-ND" H 2300 7300 60  0001 C CNN "Digi-Key_PN"
+F 5 "C315C104M5U5TA7303" H 2300 7300 60  0001 C CNN "MPN"
+F 6 "KEMET" H 2300 7300 60  0001 C CNN "Manufacturer"
+	1    2300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5E6C72D8
+P 4950 5650
+F 0 "C1" H 4975 5750 50  0000 L CNN
+F 1 "100nF" H 4975 5550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 4988 5500 50  0001 C CNN
+F 3 "" H 4950 5650 50  0000 C CNN
+F 4 "399-9859-1-ND" H 4950 5650 60  0001 C CNN "Digi-Key_PN"
+F 5 "C315C104M5U5TA7303" H 4950 5650 60  0001 C CNN "MPN"
+F 6 "KEMET" H 4950 5650 60  0001 C CNN "Manufacturer"
+	1    4950 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 4300 6250 3    60   Input ~ 0
+*RST
+Text HLabel 7200 600  0    60   Output ~ 0
+SC1
+Text HLabel 7700 600  0    60   Output ~ 0
+SC2
+Text HLabel 8200 600  0    60   Output ~ 0
+SC3
+Text HLabel 8700 600  0    60   Output ~ 0
+SC4
+Text HLabel 9450 600  0    60   Output ~ 0
+SC5
+Text HLabel 9950 600  0    60   Output ~ 0
+SC6
+Text HLabel 10450 600  0    60   Output ~ 0
+SC7
+Text HLabel 10950 600  0    60   Output ~ 0
+SC8
+Text HLabel 4400 6250 3    60   Output ~ 0
+MISO
+Text HLabel 4500 6250 3    60   Input ~ 0
+MOSI
+Text HLabel 4600 6250 3    60   Input ~ 0
+SS
+Text HLabel 4700 6250 3    60   Input ~ 0
+SCLK
+Text HLabel 5300 7550 2    60   Input ~ 0
+VCC
+Text HLabel 5300 7450 2    60   Input ~ 0
+GND
+Text HLabel 2000 5350 0    60   Input ~ 0
+IN2
+Text HLabel 2000 5250 0    60   Input ~ 0
+IN1
+Text HLabel 2000 5550 0    60   Input ~ 0
+IN3
+Text HLabel 2000 5950 0    60   Input ~ 0
+IN4
+Text HLabel 2000 6050 0    60   Input ~ 0
+IN5
+Text HLabel 2000 6150 0    60   Input ~ 0
+IN6
+Text HLabel 2000 6350 0    60   Input ~ 0
+IN7
+Text HLabel 2000 6550 0    60   Input ~ 0
+IN8
+$Comp
+L SN74HC165N U6
+U 1 1 5E693272
+P 2600 5300
+F 0 "U6" H 3400 5700 60  0000 C CNN
+F 1 "SN74HC165N" H 3400 5600 60  0000 C CNN
+F 2 "rpihw:N16" H 3400 5540 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc165.pdf?ts=1588126552645" H 2600 5300 60  0001 C CNN
+F 4 "296-8251-5-ND" H 2600 5300 60  0001 C CNN "Digi-Key_PN"
+F 5 "SN74HC165N" H 2600 5300 60  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 2600 5300 60  0001 C CNN "Manufacturer"
+	1    2600 5300
+	1    0    0    -1  
+$EndComp
+Text HLabel 5300 6250 3    60   Output ~ 0
+*RST_D
+Text HLabel 5400 6250 3    60   Input ~ 0
+MISO_D
+Text HLabel 5500 6250 3    60   Output ~ 0
+MOSI_D
+Text HLabel 5600 6250 3    60   Output ~ 0
+SS_D
+Text HLabel 5700 6250 3    60   Output ~ 0
+SCLK_D
+$Comp
+L RNMF14FTC51K0 R25
+U 1 1 5EA7E402
+P 1850 6700
+F 0 "R25" H 2075 6850 60  0000 C CNN
+F 1 "51K" H 2100 6550 60  0000 C CNN
+F 2 "rpihw:STA_RNMF14" H 2100 6365 60  0001 C CNN
+F 3 "" H 1850 6700 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1850 6700 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1850 6700 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1850 6700 60  0001 C CNN "Manufacturer"
+	1    1850 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R24
+U 1 1 5EA889DC
+P 1700 5300
+F 0 "R24" H 1950 5150 60  0000 C CNN
+F 1 "51K" H 1950 5150 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 4965 60  0001 C CNN
+F 3 "" H 1700 5300 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 5300 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 5300 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 5300 60  0001 C CNN "Manufacturer"
+	1    1700 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R22
+U 1 1 5EA88F59
+P 1700 5600
+F 0 "R22" H 1925 5750 60  0001 C CNN
+F 1 "51K" H 1950 5450 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 5265 60  0001 C CNN
+F 3 "" H 1700 5600 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 5600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 5600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 5600 60  0001 C CNN "Manufacturer"
+	1    1700 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R21
+U 1 1 5EA88F99
+P 1700 6000
+F 0 "R21" H 1925 6150 60  0001 C CNN
+F 1 "51K" H 1950 5850 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 5665 60  0001 C CNN
+F 3 "" H 1700 6000 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 6000 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 6000 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 6000 60  0001 C CNN "Manufacturer"
+	1    1700 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R20
+U 1 1 5EA88FD0
+P 1700 6100
+F 0 "R20" H 1925 6250 60  0001 C CNN
+F 1 "51K" H 1950 5950 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 5765 60  0001 C CNN
+F 3 "" H 1700 6100 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 6100 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 6100 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 6100 60  0001 C CNN "Manufacturer"
+	1    1700 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R19
+U 1 1 5EA8902A
+P 1700 6200
+F 0 "R19" H 1925 6350 60  0001 C CNN
+F 1 "51K" H 1950 6050 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 5865 60  0001 C CNN
+F 3 "" H 1700 6200 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 6200 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 6200 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 6200 60  0001 C CNN "Manufacturer"
+	1    1700 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R18
+U 1 1 5EA89033
+P 1700 6400
+F 0 "R18" H 1925 6550 60  0001 C CNN
+F 1 "51K" H 1950 6250 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 6065 60  0001 C CNN
+F 3 "" H 1700 6400 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 6400 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 6400 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 6400 60  0001 C CNN "Manufacturer"
+	1    1700 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R17
+U 1 1 5EA890D7
+P 1700 6600
+F 0 "R17" H 1950 6750 60  0000 C CNN
+F 1 "51K" H 1950 6900 60  0000 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 6265 60  0001 C CNN
+F 3 "" H 1700 6600 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 6600 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 6600 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 6600 60  0001 C CNN "Manufacturer"
+	1    1700 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L RNMF14FTC51K0 R23
+U 1 1 5EA8B0A8
+P 1700 5400
+F 0 "R23" H 1925 5550 60  0001 C CNN
+F 1 "51K" H 1950 5250 60  0001 C CNN
+F 2 "rpihw:STA_RNMF14" H 1950 5065 60  0001 C CNN
+F 3 "" H 1700 5400 60  0000 C CNN
+F 4 "S51KCACT-ND" H 1700 5400 60  0001 C CNN "Digi-Key_PN"
+F 5 "RNMF14FTC51K0" H 1700 5400 60  0001 C CNN "MPN"
+F 6 "Stackpole Electronics Inc" H 1700 5400 60  0001 C CNN "Manufacturer"
+	1    1700 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SN74HC161N U2
+U 1 1 5E687D8F
+P 900 1000
+F 0 "U2" H 1700 1400 60  0000 C CNN
+F 1 "SN74HC161N" H 1700 1300 60  0000 C CNN
+F 2 "rpihw:N16" H 1700 1240 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc161.pdf?ts=1588126187898" H 900 1000 60  0001 C CNN
+F 4 "296-8244-5-ND" H 900 1000 60  0001 C CNN "Digi-Key_PN"
+F 5 "SN74HC161N" H 900 1000 60  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 900 1000 60  0001 C CNN "Manufacturer"
+	1    900  1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 10950 1500
+Connection ~ 10450 1400
+Connection ~ 9950 1300
+Connection ~ 9450 1200
+Connection ~ 8700 1100
+Connection ~ 8200 1000
+Connection ~ 7700 900 
+Connection ~ 7200 800 
+Connection ~ 1200 4400
+Connection ~ 2500 7450
+Wire Wire Line
+	1200 4400 1200 7450
+Connection ~ 1100 4600
+Connection ~ 2600 7550
+Wire Wire Line
+	1100 4600 1100 7550
+Wire Wire Line
+	1100 7550 5300 7550
+Connection ~ 4250 5800
+Wire Wire Line
+	6500 5400 6400 5400
+Wire Wire Line
+	6500 5800 6500 5400
+Wire Wire Line
+	4200 5800 6500 5800
+Wire Wire Line
+	1200 7450 5300 7450
+Wire Wire Line
+	2500 5800 2500 7450
+Wire Wire Line
+	2600 5800 2500 5800
+Wire Wire Line
+	1700 6600 2600 6600
+Wire Wire Line
+	1700 6400 2600 6400
+Wire Wire Line
+	1700 6200 2600 6200
+Wire Wire Line
+	1700 6100 2600 6100
+Wire Wire Line
+	1700 6000 2600 6000
+Wire Wire Line
+	1700 5600 2600 5600
+Wire Wire Line
+	1700 5400 2600 5400
+Wire Wire Line
+	1700 5300 2600 5300
+Connection ~ 4700 4950
+Wire Wire Line
+	2500 5700 2600 5700
+Wire Wire Line
+	2500 4950 2500 5700
+Wire Wire Line
+	4700 4950 2500 4950
+Wire Wire Line
+	4400 5400 4400 6250
+Wire Wire Line
+	4200 5400 4400 5400
+Connection ~ 2900 5050
+Wire Wire Line
+	4600 5050 4600 6250
+Wire Wire Line
+	2400 6800 2600 6800
+Wire Wire Line
+	2400 4850 2400 6800
+Wire Wire Line
+	2650 4850 2400 4850
+Wire Wire Line
+	4700 4600 4700 6250
+Wire Wire Line
+	4800 4600 4700 4600
+Wire Wire Line
+	4500 4500 4800 4500
+Wire Wire Line
+	4500 4500 4500 6250
+Wire Wire Line
+	2700 2950 2700 4700
+Wire Wire Line
+	4700 4300 4800 4300
+Wire Wire Line
+	4700 4350 4700 4300
+Wire Wire Line
+	3000 4350 4700 4350
+Wire Wire Line
+	3000 4700 3000 4350
+Wire Wire Line
+	2700 4700 3000 4700
+Connection ~ 4800 3950
+Wire Wire Line
+	2900 4400 4800 4400
+Wire Wire Line
+	2900 5050 2900 4400
+Connection ~ 850  1500
+Wire Wire Line
+	850  1800 900  1800
+Connection ~ 850  1200
+Connection ~ 850  1300
+Wire Wire Line
+	850  1500 900  1500
+Wire Wire Line
+	850  1300 900  1300
+Wire Wire Line
+	700  1200 900  1200
+Wire Wire Line
+	4500 1900 4800 1900
+Connection ~ 4500 800 
+Connection ~ 4700 1700
+Connection ~ 4700 2200
+Wire Wire Line
+	4700 1700 4800 1700
+Wire Wire Line
+	4700 2200 4700 1500
+Wire Wire Line
+	4700 1500 4800 1500
+Connection ~ 850  3550
+Wire Wire Line
+	2750 4400 850  4400
+Connection ~ 850  3450
+Wire Wire Line
+	850  3550 900  3550
+Connection ~ 850  3350
+Wire Wire Line
+	850  3450 900  3450
+Wire Wire Line
+	850  3350 900  3350
+Wire Wire Line
+	850  4400 850  3250
+Wire Wire Line
+	850  3250 900  3250
+Connection ~ 2750 3950
+Connection ~ 2750 3250
+Connection ~ 4800 3250
+Wire Wire Line
+	4800 3950 2500 3950
+Wire Wire Line
+	2750 3250 2800 3250
+Wire Wire Line
+	2750 3150 2750 4400
+Wire Wire Line
+	2750 3150 2800 3150
+Wire Wire Line
+	2650 3150 2650 4850
+Wire Wire Line
+	2500 3150 2650 3150
+Connection ~ 500  3150
+Wire Wire Line
+	500  5050 4600 5050
+Wire Wire Line
+	500  3150 900  3150
+Wire Wire Line
+	500  1600 500  5050
+Wire Wire Line
+	900  1600 500  1600
+Connection ~ 900  4600
+Wire Wire Line
+	900  4600 900  3950
+Connection ~ 700  2400
+Wire Wire Line
+	600  2400 600  4600
+Wire Wire Line
+	600  4600 4400 4600
+Wire Wire Line
+	2800 3650 2800 4600
+Wire Wire Line
+	600  2400 900  2400
+Wire Wire Line
+	700  650  700  2400
+Wire Wire Line
+	4500 650  700  650 
+Wire Wire Line
+	4500 650  4500 1900
+Wire Wire Line
+	4800 800  4500 800 
+Connection ~ 4800 2200
+Wire Wire Line
+	4800 2200 4800 4200
+Wire Wire Line
+	4400 3250 4800 3250
+Wire Wire Line
+	800  4300 4650 4300
+Wire Wire Line
+	2800 2950 2700 2950
+Wire Wire Line
+	2500 3050 2800 3050
+Wire Wire Line
+	700  3050 900  3050
+Wire Wire Line
+	700  4200 700  3050
+Wire Wire Line
+	2600 2850 2800 2850
+Connection ~ 6400 2200
+Wire Wire Line
+	2500 1800 2500 2200
+Wire Wire Line
+	4400 2750 4650 2750
+Wire Wire Line
+	4500 2650 4400 2650
+Wire Wire Line
+	4500 4200 700  4200
+Wire Wire Line
+	4500 2650 4500 4200
+Wire Wire Line
+	2600 3900 2600 2850
+Connection ~ 2600 1200
+Connection ~ 2700 1100
+Connection ~ 2800 1000
+Wire Wire Line
+	4650 2750 4650 4300
+Wire Wire Line
+	4600 3900 2600 3900
+Wire Wire Line
+	4600 2550 4600 3900
+Wire Wire Line
+	4400 2550 4600 2550
+Wire Wire Line
+	2600 2750 2800 2750
+Wire Wire Line
+	2600 1200 2600 2750
+Wire Wire Line
+	2500 1200 4800 1200
+Wire Wire Line
+	2700 2650 2800 2650
+Wire Wire Line
+	2700 1100 2700 2650
+Wire Wire Line
+	2500 1100 4800 1100
+Wire Wire Line
+	2500 1000 4800 1000
+Wire Wire Line
+	2800 2550 2800 1000
+Wire Wire Line
+	7000 4900 9550 4900
+Wire Wire Line
+	7000 4800 9650 4800
+Wire Wire Line
+	7000 4700 9750 4700
+Wire Wire Line
+	7000 4600 9850 4600
+Wire Wire Line
+	7000 4500 9950 4500
+Wire Wire Line
+	7000 4400 10050 4400
+Wire Wire Line
+	7000 4300 10150 4300
+Wire Wire Line
+	7000 4200 10250 4200
+Connection ~ 6900 2200
+Wire Wire Line
+	6400 2200 6400 1800
+Connection ~ 7400 2200
+Connection ~ 7900 2200
+Connection ~ 8400 2200
+Connection ~ 9150 2200
+Connection ~ 9650 2200
+Connection ~ 10150 2200
+Wire Wire Line
+	2450 2200 10650 2200
+Wire Wire Line
+	6900 2600 6900 2700
+Wire Wire Line
+	7400 2600 7400 2700
+Wire Wire Line
+	7900 2600 7900 2700
+Wire Wire Line
+	8400 2600 8400 2700
+Wire Wire Line
+	9150 2600 9150 2700
+Wire Wire Line
+	9650 2600 9650 2700
+Wire Wire Line
+	10150 2600 10150 2700
+Wire Wire Line
+	10650 2600 10650 2700
+Wire Wire Line
+	7200 800  6400 800 
+Wire Wire Line
+	7200 600  7200 1600
+Wire Wire Line
+	7700 900  6400 900 
+Wire Wire Line
+	7700 600  7700 1600
+Wire Wire Line
+	8200 1000 6400 1000
+Wire Wire Line
+	8200 600  8200 1600
+Wire Wire Line
+	8700 1100 6400 1100
+Wire Wire Line
+	8700 600  8700 1600
+Wire Wire Line
+	9450 1200 6400 1200
+Wire Wire Line
+	9450 600  9450 1600
+Wire Wire Line
+	9950 1300 6400 1300
+Wire Wire Line
+	9950 600  9950 1600
+Wire Wire Line
+	10450 1400 6400 1400
+Wire Wire Line
+	10450 600  10450 1600
+Wire Wire Line
+	10950 1500 6400 1500
+Wire Wire Line
+	10950 600  10950 1600
+Wire Wire Line
+	10950 2400 10950 2100
+Wire Wire Line
+	10450 2400 10450 2100
+Wire Wire Line
+	9950 2400 9950 2100
+Wire Wire Line
+	9450 2400 9450 2100
+Wire Wire Line
+	8700 2400 8700 2100
+Wire Wire Line
+	8200 2400 8200 2100
+Wire Wire Line
+	7700 2400 7700 2100
+Wire Wire Line
+	7200 2400 7200 2100
+Wire Wire Line
+	6400 4200 6500 4200
+Wire Wire Line
+	6400 4300 6500 4300
+Wire Wire Line
+	6400 4400 6500 4400
+Wire Wire Line
+	6400 4500 6500 4500
+Wire Wire Line
+	6400 4600 6500 4600
+Wire Wire Line
+	6400 4700 6500 4700
+Wire Wire Line
+	6400 4800 6500 4800
+Wire Wire Line
+	6400 4900 6500 4900
+Wire Wire Line
+	850  4250 700  4250
+Wire Wire Line
+	700  4250 700  4300
+Connection ~ 850  4250
+Connection ~ 700  4600
+Wire Wire Line
+	2450 2200 2450 2400
+Connection ~ 2500 2200
+Wire Wire Line
+	2450 2700 600  2700
+Connection ~ 600  2700
+Connection ~ 2800 4050
+Wire Wire Line
+	3100 4050 3100 3950
+Connection ~ 3100 3950
+Wire Wire Line
+	2600 7550 2600 7200
+Wire Wire Line
+	2600 7200 2450 7200
+Connection ~ 4950 5800
+Connection ~ 2300 7450
+Wire Wire Line
+	2450 7200 2450 7150
+Wire Wire Line
+	2450 7150 2300 7150
+Connection ~ 4500 2200
+Wire Wire Line
+	4400 4600 4400 4750
+Wire Wire Line
+	4400 4750 4800 4750
+Connection ~ 4800 5000
+Connection ~ 2800 4600
+Wire Wire Line
+	4800 4750 4800 5500
+Wire Wire Line
+	4800 5500 4950 5500
+Wire Wire Line
+	4250 5800 4250 5900
+Wire Wire Line
+	4250 5900 4000 5900
+Wire Wire Line
+	4000 5900 4000 7450
+Connection ~ 4000 7450
+Wire Wire Line
+	4300 4350 4300 6250
+Connection ~ 4300 4350
+Wire Wire Line
+	850  1200 850  1800
+Wire Wire Line
+	800  1100 900  1100
+Connection ~ 700  1200
+Wire Wire Line
+	900  1000 700  1000
+Connection ~ 700  1000
+Wire Wire Line
+	6400 5000 6400 5900
+Wire Wire Line
+	6400 5900 5500 5900
+Wire Wire Line
+	5500 5900 5500 6250
+Wire Wire Line
+	1850 6700 2600 6700
+Wire Wire Line
+	2100 6700 2100 7650
+Wire Wire Line
+	2100 7650 4100 7650
+Wire Wire Line
+	4100 7650 4100 6000
+Wire Wire Line
+	4100 6000 5400 6000
+Wire Wire Line
+	5400 6000 5400 6250
+Wire Wire Line
+	4700 5950 5700 5950
+Wire Wire Line
+	5700 5950 5700 6250
+Connection ~ 4700 5950
+Wire Wire Line
+	4600 6100 5600 6100
+Wire Wire Line
+	5600 6100 5600 6250
+Connection ~ 4600 6100
+Wire Wire Line
+	4300 6200 5300 6200
+Wire Wire Line
+	5300 6200 5300 6250
+Connection ~ 4300 6200
+Connection ~ 2100 6700
+Wire Wire Line
+	1850 7200 1850 7450
+Connection ~ 1850 7450
+Connection ~ 1200 5300
+Connection ~ 1200 5400
+Connection ~ 1200 5600
+Connection ~ 1200 6000
+Connection ~ 1200 6100
+Connection ~ 1200 6200
+Connection ~ 1200 6400
+Connection ~ 1200 6600
+Wire Wire Line
+	2000 5250 2050 5250
+Wire Wire Line
+	2050 5250 2050 5300
+Connection ~ 2050 5300
+Wire Wire Line
+	2000 5350 2050 5350
+Wire Wire Line
+	2050 5350 2050 5400
+Connection ~ 2050 5400
+Wire Wire Line
+	2000 5550 2050 5550
+Wire Wire Line
+	2050 5550 2050 5600
+Connection ~ 2050 5600
+Wire Wire Line
+	2000 5950 2050 5950
+Wire Wire Line
+	2050 5950 2050 6000
+Connection ~ 2050 6000
+Wire Wire Line
+	2000 6050 2050 6050
+Wire Wire Line
+	2050 6050 2050 6100
+Connection ~ 2050 6100
+Wire Wire Line
+	2000 6150 2050 6150
+Wire Wire Line
+	2050 6150 2050 6200
+Connection ~ 2050 6200
+Wire Wire Line
+	2000 6350 2050 6350
+Wire Wire Line
+	2050 6350 2050 6400
+Connection ~ 2050 6400
+Wire Wire Line
+	2000 6550 2050 6550
+Wire Wire Line
+	2050 6550 2050 6600
+Connection ~ 2050 6600
+Wire Wire Line
+	800  1100 800  4300
+Wire Wire Line
+	800  2000 900  2000
+Wire Wire Line
+	800  1900 900  1900
+Connection ~ 800  2000
+Connection ~ 800  1900
+Wire Wire Line
+	9550 4900 9550 4100
+Wire Wire Line
+	9650 4800 9650 4100
+Wire Wire Line
+	9750 4700 9750 4100
+Wire Wire Line
+	9850 4600 9850 4100
+Wire Wire Line
+	9950 4500 9950 4100
+Wire Wire Line
+	10050 4400 10050 4100
+Wire Wire Line
+	10150 4300 10150 4100
+Wire Wire Line
+	10250 4200 10250 4100
+Wire Wire Line
+	8000 4100 8000 4200
+Connection ~ 8000 4200
+Wire Wire Line
+	7900 4100 7900 4300
+Connection ~ 7900 4300
+Wire Wire Line
+	7800 4100 7800 4400
+Connection ~ 7800 4400
+Wire Wire Line
+	7700 4100 7700 4500
+Connection ~ 7700 4500
+Wire Wire Line
+	7600 4100 7600 4600
+Connection ~ 7600 4600
+Wire Wire Line
+	7500 4100 7500 4700
+Connection ~ 7500 4700
+Wire Wire Line
+	7400 4100 7400 4800
+Connection ~ 7400 4800
+Wire Wire Line
+	7300 4100 7300 4900
+Connection ~ 7300 4900
+$EndSCHEMATC
