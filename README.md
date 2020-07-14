@@ -4,12 +4,12 @@
 Background Info
 ---------------
 
-This is first large-scale Raspberry Pi hardware project.  The original
-overly large goals of my Raspberry Pi hardware project was to have one
-Raspberry Pi hardware device with all imaginable peripheral interfaces
-I could ever conceivably need, so I could just plug in what I need for
-a particular session.  But, since that's too large sweeping of a goal
-to achieve... let's simply state what my actual design does.
+This is my first large-scale Raspberry Pi hardware project.  The
+original overly large goals of my Raspberry Pi hardware project was to
+have one Raspberry Pi hardware device with all imaginable peripheral
+interfaces I could ever conceivably need, so I could just plug in what
+I need for a particular session.  But, since that's too large sweeping
+of a goal to achieve... let's simply state what my actual design does.
 
 This is my first iteration at designing a Raspberry Pi SPI devices
 board.  The path to this real implementation started out by playing

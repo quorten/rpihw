@@ -137,7 +137,7 @@ P 3400 3300
 F 0 "SW101" H 3700 3350 50  0000 C CNN
 F 1 "DPST 4A" H 3700 3250 50  0000 C CNN
 F 2 "Wire_Pads:SolderWirePad_4xSquare_0-8mmDrill" H 3400 3300 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1423/l.pdf" H 3400 3300 50  0000 C CNN
+F 3 "https://www.ckswitches.com/media/1423/l.pdf" H 3400 3300 50  0001 C CNN
 F 4 "CKN11876-ND" H 3400 3300 60  0001 C CNN "Digi-Key_PN"
 F 5 "L201011MS02Q" H 3400 3300 60  0001 C CNN "MPN"
 F 6 "C&K" H 3400 3300 60  0001 C CNN "Manufacturer"

@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 2 5
 Title "SPI 7-SEG DPLY KEYPAD CTL DIP"
 Date ""
-Rev "V1"
+Rev "V1.1"
 Comp "Hobbyist Community"
 Comment1 "Designed by quorten"
 Comment2 ""
@@ -884,7 +884,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4500 4500 6250
 Wire Wire Line
-	2700 2950 2700 4700
+	2700 4300 2700 4700
 Wire Wire Line
 	4700 4300 4800 4300
 Wire Wire Line
@@ -934,7 +934,7 @@ Wire Wire Line
 Wire Wire Line
 	850  3350 900  3350
 Wire Wire Line
-	850  4400 850  3250
+	850  4400 850  3150
 Wire Wire Line
 	850  3250 900  3250
 Connection ~ 2750 3950
@@ -945,18 +945,14 @@ Wire Wire Line
 Wire Wire Line
 	2750 3250 2800 3250
 Wire Wire Line
-	2750 3150 2750 4400
+	2750 2550 2750 4400
 Wire Wire Line
 	2750 3150 2800 3150
 Wire Wire Line
-	2650 3150 2650 4850
-Wire Wire Line
-	2500 3150 2650 3150
-Connection ~ 500  3150
+	2650 3050 2650 4850
+Connection ~ 500  3050
 Wire Wire Line
 	500  5050 4600 5050
-Wire Wire Line
-	500  3150 900  3150
 Wire Wire Line
 	500  1600 500  5050
 Wire Wire Line
@@ -986,58 +982,15 @@ Wire Wire Line
 	4800 2200 4800 4200
 Wire Wire Line
 	4400 3250 4800 3250
-Wire Wire Line
-	800  4300 4650 4300
-Wire Wire Line
-	2800 2950 2700 2950
-Wire Wire Line
-	2500 3050 2800 3050
-Wire Wire Line
-	700  3050 900  3050
-Wire Wire Line
-	700  4200 700  3050
-Wire Wire Line
-	2600 2850 2800 2850
 Connection ~ 6400 2200
 Wire Wire Line
 	2500 1800 2500 2200
 Wire Wire Line
-	4400 2750 4650 2750
-Wire Wire Line
-	4500 2650 4400 2650
-Wire Wire Line
-	4500 4200 700  4200
-Wire Wire Line
-	4500 2650 4500 4200
-Wire Wire Line
-	2600 3900 2600 2850
-Connection ~ 2600 1200
-Connection ~ 2700 1100
-Connection ~ 2800 1000
-Wire Wire Line
-	4650 2750 4650 4300
-Wire Wire Line
-	4600 3900 2600 3900
-Wire Wire Line
-	4600 2550 4600 3900
-Wire Wire Line
-	4400 2550 4600 2550
-Wire Wire Line
-	2600 2750 2800 2750
-Wire Wire Line
-	2600 1200 2600 2750
-Wire Wire Line
 	2500 1200 4800 1200
-Wire Wire Line
-	2700 2650 2800 2650
-Wire Wire Line
-	2700 1100 2700 2650
 Wire Wire Line
 	2500 1100 4800 1100
 Wire Wire Line
 	2500 1000 4800 1000
-Wire Wire Line
-	2800 2550 2800 1000
 Wire Wire Line
 	7000 4900 9550 4900
 Wire Wire Line
@@ -1333,4 +1286,31 @@ Connection ~ 7400 4800
 Wire Wire Line
 	7300 4100 7300 4900
 Connection ~ 7300 4900
+Wire Wire Line
+	2650 3050 2500 3050
+Wire Wire Line
+	500  3050 900  3050
+Wire Wire Line
+	850  3150 900  3150
+Connection ~ 850  3250
+Wire Wire Line
+	2750 3050 2800 3050
+Connection ~ 2750 3150
+Wire Wire Line
+	2750 2950 2800 2950
+Connection ~ 2750 3050
+Wire Wire Line
+	2750 2850 2800 2850
+Connection ~ 2750 2950
+Wire Wire Line
+	2750 2750 2800 2750
+Connection ~ 2750 2850
+Wire Wire Line
+	2750 2650 2800 2650
+Connection ~ 2750 2750
+Wire Wire Line
+	2750 2550 2800 2550
+Connection ~ 2750 2650
+Wire Wire Line
+	800  4300 2700 4300
 $EndSCHEMATC
