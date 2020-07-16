@@ -3,7 +3,7 @@
   (general
     (links 252)
     (no_connects 0)
-    (area 49.53 35.56 264.16 120.65)
+    (area 53.264999 38.024999 260.425001 116.915001)
     (thickness 1.6)
     (drawings 24)
     (tracks 1139)
@@ -4868,6 +4868,11 @@
       (net 109 "Net-(F2-Pad2)"))
     (pad 1 thru_hole circle (at 1.27 -1.27) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 109 "Net-(F2-Pad2)"))
+    (model /home/andrew/rpihw/packages3d/DPST_6A.wrl
+      (at (xyz 0.15 -0.2 0.25))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 90 0))
+    )
   )
 
   (module Capacitors_ThroughHole:C_Radial_D5_L11_P2.5 (layer F.Cu) (tedit 0) (tstamp 5F0B2A15)
@@ -5416,6 +5421,11 @@
       (net 164 "Net-(D103-Pad1)"))
     (pad 1 thru_hole circle (at 1.27 -1.27) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 164 "Net-(D103-Pad1)"))
+    (model /home/andrew/rpihw/packages3d/DPST_4A.wrl
+      (at (xyz 0.05 -0.125 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module Wire_Pads:SolderWirePad_3x_0-8mmDrill (layer F.Cu) (tedit 0) (tstamp 5F0B2C1B)
