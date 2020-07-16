@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD74HC238E
+D IC DECODER/DEMUX HS 3-8 16-DIP
+K CD74HC238E
+F http://www.ti.com/lit/ds/symlink/cd74hc138.pdf?ts=1588126328986
+$ENDCMP
+#
+$CMP SN74HC04N
+D IC INVERTER 6CH 6-INP 14DIP
+K SN74HC04N
+F http://www.ti.com/lit/ds/symlink/sn74hc04.pdf?ts=1588126377820
+$ENDCMP
+#
+$CMP SN74HC08N
+D IC GATE AND 4CH 2-INP 14DIP
+K SN74HC08N
+F http://www.ti.com/lit/ds/symlink/sn74hc08.pdf?ts=1588126416768
+$ENDCMP
+#
+$CMP SN74HC161N
+D IC 4-BIT BINARY COUNTER 16-DIP
+K SN74HC161N
+F http://www.ti.com/lit/ds/symlink/sn74hc161.pdf?ts=1588126187898
+$ENDCMP
+#
+$CMP SN74HC165N
+D IC 8-BIT SHIFT REGISTER 16-DIP
+K SN74HC165N
+F http://www.ti.com/lit/ds/symlink/sn74hc165.pdf?ts=1588126552645
+$ENDCMP
+#
+$CMP SN74HC595N
+D IC 8-BIT SHIFT REGISTER 16-DIP
+K SN74HC595N
+F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?ts=1588126497782
+$ENDCMP
+#
+$CMP SN74HC32N
+D IC GATE OR 4CH 2-INP 14DIP
+K SN74HC32N
+F http://www.ti.com/lit/ds/symlink/sn74hc32.pdf?ts=1588126663756
+$ENDCMP
+#
+$CMP L293D
+D Motor Control IC
+K L293D
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf
+$ENDCMP
+#
+#End Doc Library
