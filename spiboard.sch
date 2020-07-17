@@ -227,13 +227,13 @@ U 1 1 5F0A18E2
 P 8050 2700
 F 0 "SW1" H 8050 3050 50  0000 C CNN
 F 1 "DPST 6A" H 8050 2400 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_4xSquare_0-8mmDrill" H 8050 2700 50  0001 C CNN
+F 2 "rpihw:Hack_S201" H 8050 2700 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1433/s.pdf" H 8050 2700 50  0001 C CNN
 F 4 "CKN9891-ND" H 8050 2700 60  0001 C CNN "Digi-Key_PN"
 F 5 "S201031MS02Q" H 8050 2400 50  0001 C CNN "MPN"
 F 6 "C&K" H 8050 2700 60  0001 C CNN "Manufacturer"
 	1    8050 2700
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 2900 7750 2900
