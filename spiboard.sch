@@ -116,38 +116,10 @@ F 6 "Molex" H 8750 2950 60  0001 C CNN "Manufacturer"
 	1    8750 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L F_Small F1
-U 1 1 5F0663AF
-P 7450 2100
-F 0 "F1" H 7410 2160 50  0000 L CNN
-F 1 "16V 2A" H 7300 2000 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 7450 2100 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/mfrht.pdf" H 7450 2100 50  0001 C CNN
-F 4 "MF-RHT200-2CT-ND" H 7450 2100 60  0001 C CNN "Digi-Key_PN"
-F 5 "MF-RHT200-2" H 7400 1900 50  0000 C CNN "MPN"
-F 6 "Bourns Inc." H 7450 2100 60  0001 C CNN "Manufacturer"
-	1    7450 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L F_Small F2
-U 1 1 5F0663E0
-P 7450 2900
-F 0 "F2" H 7410 2960 50  0000 L CNN
-F 1 "60V 1.1A" H 7300 2800 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 7450 2900 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rkef110_product_specification.pdf.pdf" H 7450 2900 50  0001 C CNN
-F 4 "RKEF110HF-ND" H 7450 2900 60  0001 C CNN "Digi-Key_PN"
-F 5 "RKEF110" H 7450 2700 50  0000 C CNN "MPN"
-F 6 "Littelfuse Inc." H 7450 2900 60  0001 C CNN "Manufacturer"
-	1    7450 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5900 2100 7350 2100
+	5900 2100 7200 2100
 Wire Wire Line
-	5900 2900 7350 2900
+	5900 2900 7200 2900
 Wire Wire Line
 	6500 3500 8550 3500
 Connection ~ 6850 2100
@@ -236,11 +208,39 @@ F 6 "C&K" H 8050 2700 60  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 2900 7750 2900
+	7700 2900 7750 2900
 Wire Wire Line
 	7750 2500 7750 2100
 Wire Wire Line
-	7750 2100 7550 2100
+	7750 2100 7700 2100
 Wire Wire Line
 	8550 2500 8350 2500
+$Comp
+L THERMISTOR F1
+U 1 1 5F8E06AB
+P 7450 2100
+F 0 "F1" V 7550 2100 50  0000 C CNN
+F 1 "16V 2A" V 7350 2100 50  0000 C BNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 7450 2100 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/mfrht.pdf" H 7450 2100 50  0001 C CNN
+F 4 "MF-RHT200-2CT-ND" V 7450 2100 60  0001 C CNN "Digi-Key_PN"
+F 5 "MF-RHT200-2" V 7250 2100 50  0000 C CNN "MPN"
+F 6 "Bourns Inc." V 7450 2100 60  0001 C CNN "Manufacturer"
+	1    7450 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L THERMISTOR F2
+U 1 1 5F8E0719
+P 7450 2900
+F 0 "F2" V 7550 2900 50  0000 C CNN
+F 1 "60V 1.1A" V 7350 2900 50  0000 C BNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 7450 2900 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rkef110_product_specification.pdf.pdf" H 7450 2900 50  0001 C CNN
+F 4 "RKEF110HF-ND" V 7450 2900 60  0001 C CNN "Digi-Key_PN"
+F 5 "RKEF110" V 7250 2900 50  0000 C CNN "MPN"
+F 6 "Littelfuse Inc." V 7450 2900 60  0001 C CNN "Manufacturer"
+	1    7450 2900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
