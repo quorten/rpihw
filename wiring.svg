@@ -229,9 +229,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="654.83939"
-     inkscape:cy="460.13525"
+     inkscape:zoom="1"
+     inkscape:cx="674.67859"
+     inkscape:cy="702.41524"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -7495,10 +7495,10 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 796.56347,451.23664 -5,-6 5,-11 -7,-8 6,-5 -8,-10 9,-7 -18,-7 -3.81081,-17.13514 7.81081,-6.86486 0,0 -5,-20"
+       d="m 777.56347,353.23664 -2.81081,26.86486 3.81081,17.13514 18,7 -9,7 8,10 -6,5 7,8 -5,11 5,6 -17.99275,6.7985 4.42928,7.45698 1.50416,-5.91481 10.99794,-0.53645 109.4979,-0.54874 1,8.5"
        id="path4937"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccc" />
+       sodipodi:nodetypes="cccccccccccccccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 399.86888,387.71267 443.0024,366.85302"
@@ -7667,7 +7667,8 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 400.94118,420.16854 36.70588,113.88235"
        id="path4464"
-       transform="translate(-1.1035158e-5,0)" />
+       transform="translate(-1.1035158e-5,0)"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1148.3414,626.70724 41.7193,47.37616 -38.8909,70.00357"
@@ -7678,7 +7679,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Wires L2"
-     style="display:none">
+     style="display:inline">
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 1013.9911,629.54319 758.01847,652.87772"
@@ -7765,7 +7766,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Wires L3"
-     style="display:none">
+     style="display:inline">
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 1015.4053,686.81126 282.13561,719.33817"
@@ -7851,7 +7852,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Connectors"
-     style="display:none">
+     style="display:inline">
     <rect
        style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4951"
@@ -8000,14 +8001,20 @@
        inkscape:connector-curvature="0" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 779.56347,467.23664 129,-2 9,10 -4,8 4,17 L 900,525.99212 l -645,19 -106.5,26.5"
+       d="M 784.51322,377.43408 765.53551,505.89349 752.92179,530.23476 255,544.99212 l -106.5,26.5"
        id="path4935"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 417.88235,440.87442 389.64706,518.99207 145.88235,573.5803"
        id="path4466"
        transform="translate(-1.1035158e-5,0)"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 786.30274,388.41226 -22.62741,-1.41422 -4.24265,-59.39697 -639.22453,-16.97056 -6.36396,22.62742"
+       id="path4988"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

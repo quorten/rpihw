@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 2 5
 Title "SPI 7-SEG DPLY KEYPAD CTL DIP"
 Date ""
-Rev "V1.1"
+Rev "V1.2"
 Comp "Hobbyist Community"
 Comment1 "Designed by quorten"
 Comment2 ""
@@ -629,21 +629,21 @@ VCC
 Text HLabel 5300 7450 2    60   Input ~ 0
 GND
 Text HLabel 2000 5350 0    60   Input ~ 0
-IN2
-Text HLabel 2000 5250 0    60   Input ~ 0
-IN1
-Text HLabel 2000 5550 0    60   Input ~ 0
-IN3
-Text HLabel 2000 5950 0    60   Input ~ 0
-IN4
-Text HLabel 2000 6050 0    60   Input ~ 0
-IN5
-Text HLabel 2000 6150 0    60   Input ~ 0
-IN6
-Text HLabel 2000 6350 0    60   Input ~ 0
 IN7
-Text HLabel 2000 6550 0    60   Input ~ 0
+Text HLabel 2000 5250 0    60   Input ~ 0
 IN8
+Text HLabel 2000 5550 0    60   Input ~ 0
+IN6
+Text HLabel 2000 5950 0    60   Input ~ 0
+IN5
+Text HLabel 2000 6050 0    60   Input ~ 0
+IN4
+Text HLabel 2000 6150 0    60   Input ~ 0
+IN3
+Text HLabel 2000 6350 0    60   Input ~ 0
+IN2
+Text HLabel 2000 6550 0    60   Input ~ 0
+IN1
 $Comp
 L SN74HC165N U6
 U 1 1 5E693272
@@ -1146,13 +1146,8 @@ Wire Wire Line
 	4300 4350 4300 6250
 Connection ~ 4300 4350
 Wire Wire Line
-	850  1200 850  1800
-Wire Wire Line
-	800  1100 900  1100
+	850  1100 850  2000
 Connection ~ 700  1200
-Wire Wire Line
-	900  1000 700  1000
-Connection ~ 700  1000
 Wire Wire Line
 	6400 5000 6400 5900
 Wire Wire Line
@@ -1239,13 +1234,7 @@ Wire Wire Line
 	2050 6550 2050 6600
 Connection ~ 2050 6600
 Wire Wire Line
-	800  1100 800  4300
-Wire Wire Line
-	800  2000 900  2000
-Wire Wire Line
-	800  1900 900  1900
-Connection ~ 800  2000
-Connection ~ 800  1900
+	800  1000 800  4300
 Wire Wire Line
 	9550 4900 9550 4100
 Wire Wire Line
@@ -1313,4 +1302,14 @@ Wire Wire Line
 Connection ~ 2750 2650
 Wire Wire Line
 	800  4300 2700 4300
+Wire Wire Line
+	850  1900 900  1900
+Connection ~ 850  1800
+Wire Wire Line
+	850  2000 900  2000
+Connection ~ 850  1900
+Wire Wire Line
+	800  1000 900  1000
+Wire Wire Line
+	900  1100 850  1100
 $EndSCHEMATC
