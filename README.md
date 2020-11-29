@@ -104,6 +104,13 @@ Credits
   useful advanced features not in the BOM generators in the newer
   KiCad versions.
 
+* Icarus Verilog: Open Hardware tools are not as integrated as they
+  could or should be... it seems the best way to simulate digital glue
+  logic is to code it up in Verilog.  Of course, this doesn't provide
+  simulation for any of the analog glue connections, I'm just relying
+  on careful eyeing of the schematics and best effort with my current,
+  somewhat limited, design experience for that one.
+
 N.B.: Modern versions of KiCad don't have the simple internal
 autorouter, it wasn't forward ported when was Pcbnew was extensively
 refactored.  That's another benefit of the older versions, if you just

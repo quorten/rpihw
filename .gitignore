@@ -2,6 +2,8 @@
 *.kicad_pcb-bak
 *.tmp
 *.pdf
+*.vvp
+*.vcd
 rpihw.net
 rpihw.xml
 rpihw.wrl
